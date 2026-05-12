@@ -1,13 +1,9 @@
 # =============================================================================
 # OCEANS Study: Baseline Cognitive and Functional Profile Analysis
-# Author: Courtney M. Atkinson, MHS
-# Date: May 2026
-# Description: Reproducible analysis of baseline cognitive and physical
-#   function data from the OCEANS intervention study, examining group
-#   differences between intervention and control participants across
-#   MoCA, SPPB, reaction time, and verbal learning outcomes.
 # =============================================================================
-
+# Quick distribution check before selecting test type
+hist(df$moca, main = "MoCA distribution", xlab = "MoCA Score")
+hist(df$log_rt_cond1, main = "Log RT distribution")
 
 # -----------------------------------------------------------------------------
 # 0. Setup: Load packages
